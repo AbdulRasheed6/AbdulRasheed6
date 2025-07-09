@@ -76,10 +76,14 @@ Actively developing an **Agentic AI system** focused on [briefly describe the do
 * **[Link to Demo/Deployment (if available)]**
 
 ### 🌿 Maize Disease Classification (End-to-End Deep Learning)
-An end-to-end deep learning solution for accurately classifying various maize diseases from images. This project involved comprehensive data versioning with **DVC**, building and training sophisticated CNN architectures (e.g., ResNet, EfficientNet) using **TensorFlow/Keras**, and containerizing the model with **Docker** for scalable deployment.
-* **Key Technologies:** Python, TensorFlow, Keras, OpenCV, scikit-learn, **DVC, Docker**, [Mention specific deployment tech if applicable, e.g., Flask/FastAPI]
-* **[Link to Repository (if public)]**
-* **[Link to Demo/Deployment (if available)]**
+
+This project tackles the critical challenge of **identifying maize leaf diseases** in natural environments, especially in Africa, where diseases like **Maize Lethal Necrosis** and **Maize Streak Virus** severely impact smallholder farmers' crop yields. My solution provides a pathway for **early diagnosis** to enhance food security.
+
+* **Dataset:** Utilizes the **largest publicly available dataset** for maize leaf health classification, comprising **18,148 images** captured with smartphone cameras in Tanzania. This dataset supports diverse tasks from disease diagnosis to real-time field prediction.
+* **Model Architecture:** Implemented **LFMNet**, a lightweight multi-attention convolutional neural network. This architecture was specifically designed to overcome challenges such as **background interference**, **high inter-class similarity**, and to enable **real-time inference** in practical settings.
+* **MLOps Practices:** Leveraged **DVC** for comprehensive data versioning and **Docker** for containerizing the model, ensuring reproducible and scalable deployment.
+* **Key Technologies:** Python, TensorFlow, Keras, OpenCV, scikit-learn, **DVC, Docker**, **Flask**
+* **[Link to Repository (https://github.com/AbdulRasheed6/end-to-end_mazie_disease_classification)]**
 
 ### 💬 Medical Chatbot (NLP & Vector Databases)
 Developed an intelligent medical chatbot designed to provide [briefly describe its function, e.g., "reliable information on common ailments" or "answer patient queries"]. This project leveraged advanced NLP techniques, including [mention specific NLP models/libraries, e.g., Transformers, spaCy], and incorporated a **vector database** for efficient semantic search and knowledge retrieval.
