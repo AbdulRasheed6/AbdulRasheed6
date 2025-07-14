@@ -69,11 +69,6 @@ Here are some of the tools and technologies I work with to build and deploy robu
 
 Here are some of the projects where I've applied deep learning, MLOps practices, and cutting-edge AI techniques to solve real-world problems. For more, check out my repositories!
 
-### 🤖 Agentic AI Project
-Actively developing an **Agentic AI system** focused on [briefly describe the domain or problem, e.g., "automating complex workflows" or "dynamic decision-making"]. This project involves leveraging **LLMs**, integrating various tools, and designing robust agent architectures for [mention key capabilities, e.g., "autonomous task execution" or "intelligent problem-solving"].
-* **Key Technologies:** Python, [Specific LLM Frameworks, e.g., LangChain, LlamaIndex], [Vector DB, if applicable], [other tools like FastAPI, Streamlit]
-* **[Link to Repository (if public)]**
-* **[Link to Demo/Deployment (if available)]**
 
 ### 🌿 Maize Disease Classification (End-to-End Deep Learning)
 
@@ -86,10 +81,8 @@ This project tackles the critical challenge of **identifying maize leaf diseases
 * **[Link to Repository (https://github.com/AbdulRasheed6/end-to-end_mazie_disease_classification)]**
 
 ### 💬 Medical Chatbot (NLP & Vector Databases)
-Developed an intelligent medical chatbot designed to provide [briefly describe its function, e.g., "reliable information on common ailments" or "answer patient queries"]. This project leveraged advanced NLP techniques, including [mention specific NLP models/libraries, e.g., Transformers, spaCy], and incorporated a **vector database** for efficient semantic search and knowledge retrieval.
-* **Key Technologies:** Python, [Specific NLP Library/Framework, e.g., Hugging Face Transformers, spaCy], [Vector DB, e.g., Pinecone, ChromaDB, FAISS, Weaviate], [Web Framework, e.g., Flask, FastAPI]
-* **[Link to Repository (if public)]**
-* **[Link to Demo/Deployment (if available)]**
+
+> Developed an end-to-end AI-powered medical chatbot using Flask, LangChain, HuggingFace Transformers (`all-MiniLM-L6-v2`), Pinecone, and Gemini Pro to enable retrieval-augmented question answering over medical documents. The user interface was built with HTML, CSS, and AJAX, while the backend handled semantic search and prompt-based response generation. The application was containerized with Docker and deployed to an AWS EC2 instance through a CI/CD pipeline using GitHub Actions, Amazon ECR, and a self-hosted runner. API keys and secrets were managed securely using GitHub Secrets, and model cache files were excluded via `.gitignore`.
 
 ---
 
